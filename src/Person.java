@@ -3,11 +3,19 @@ class Person {
 		private float _height;
 		private float _weight;
 
+		public float getHeight() {
+			return this._height;
+		}
+
+		public void setHeight(float height) {
+			this._height = height;
+		}
+
 		public Person() {
 			this._height = 6;
 			this._weight = 200 ;
 		}
-
+		
 		public void walks() {
 			this._weight *= 0.9;
 			System.out.println("You lost weight!");

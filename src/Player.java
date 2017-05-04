@@ -12,6 +12,8 @@ public class Player {
 		tom.walks();
 		tom.walks();
 		
+		tom.setHeight(7);
+		
 	}
 
 }
