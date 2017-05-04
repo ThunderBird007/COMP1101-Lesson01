@@ -5,7 +5,7 @@ public class Player {
 
 	
 	public static void main(String[] args) {
-		Person tom = new Person("tom", 200.3f);
+		Person tom = new Person("tom", 200.3f, 6.0f);
 		tom.walks();
 		
 		tom.walks();
@@ -14,7 +14,7 @@ public class Player {
 		
 		tom.setHeight(7);
 		
-		Person mike = new Person("mike", 150.0f);
+		Person mike = new Person("mike", 160.0f, 6.5f);
 		mike.walks();
 		
 	}

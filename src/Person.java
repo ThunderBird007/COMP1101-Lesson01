@@ -12,8 +12,8 @@ class Person {
 			this._height = height;
 		}
 
-		public Person(String name, float weight) {
-			this._height = 6;
+		public Person(String name, float weight, float height) {
+			this._height = height;
 			this._weight = weight;
 			this._name = name;
 		}
